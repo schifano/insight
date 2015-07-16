@@ -14,6 +14,9 @@
 		29A9626A1B56FF1600847720 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29A962681B56FF1600847720 /* LaunchScreen.xib */; };
 		29A962761B56FF1600847720 /* InSightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A962751B56FF1600847720 /* InSightTests.swift */; };
 		29A962821B5708F400847720 /* ChooseInterestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A962811B5708F400847720 /* ChooseInterestsViewController.swift */; };
+		29A962841B5711B700847720 /* UserFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A962831B5711B700847720 /* UserFeedViewController.swift */; };
+		29A962861B5731BB00847720 /* BasicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A962851B5731BB00847720 /* BasicCell.swift */; };
+		29A962881B57533A00847720 /* circles.png in Resources */ = {isa = PBXBuildFile; fileRef = 29A962871B57533A00847720 /* circles.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		29A962741B56FF1600847720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29A962751B56FF1600847720 /* InSightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InSightTests.swift; sourceTree = "<group>"; };
 		29A962811B5708F400847720 /* ChooseInterestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseInterestsViewController.swift; sourceTree = "<group>"; };
+		29A962831B5711B700847720 /* UserFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserFeedViewController.swift; sourceTree = "<group>"; };
+		29A962851B5731BB00847720 /* BasicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicCell.swift; sourceTree = "<group>"; };
+		29A962871B57533A00847720 /* circles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = circles.png; path = Images.xcassets/circles.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +88,11 @@
 				29A9625F1B56FF1600847720 /* AppDelegate.swift */,
 				29A962611B56FF1600847720 /* ViewController.swift */,
 				29A962811B5708F400847720 /* ChooseInterestsViewController.swift */,
+				29A962831B5711B700847720 /* UserFeedViewController.swift */,
 				29A962631B56FF1600847720 /* Main.storyboard */,
+				29A962851B5731BB00847720 /* BasicCell.swift */,
 				29A962661B56FF1600847720 /* Images.xcassets */,
+				29A962871B57533A00847720 /* circles.png */,
 				29A962681B56FF1600847720 /* LaunchScreen.xib */,
 				29A9625D1B56FF1600847720 /* Supporting Files */,
 			);
@@ -198,6 +207,7 @@
 				29A962651B56FF1600847720 /* Main.storyboard in Resources */,
 				29A9626A1B56FF1600847720 /* LaunchScreen.xib in Resources */,
 				29A962671B56FF1600847720 /* Images.xcassets in Resources */,
+				29A962881B57533A00847720 /* circles.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +225,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29A962861B5731BB00847720 /* BasicCell.swift in Sources */,
 				29A962621B56FF1600847720 /* ViewController.swift in Sources */,
+				29A962841B5711B700847720 /* UserFeedViewController.swift in Sources */,
 				29A962821B5708F400847720 /* ChooseInterestsViewController.swift in Sources */,
 				29A962601B56FF1600847720 /* AppDelegate.swift in Sources */,
 			);

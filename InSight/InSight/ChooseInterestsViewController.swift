@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 State Farm. All rights reserved.
 //
 
-import UIKit
 import Foundation
+import UIKit
 
 class ChooseSoundsViewController: UIViewController {
     

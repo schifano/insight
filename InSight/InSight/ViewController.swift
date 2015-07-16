@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var joinNowButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,15 +23,15 @@ class ViewController: UIViewController {
     }
     
  
-    /**
-        Segues the JoinNowVC to the InterestsVC.
-    */
-//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-//   
-//        if (segue.identifier == "joinNow") {
-//            // Make destinationVC the correct type
-//            let chooseInterestsVC:ChooseInterestsViewController = segue.destinationViewController as! ChooseInterestsViewController
-//        }
-//    }
-    
+    override func viewWillAppear(animated: Bool) {
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "balloon.png")!)
+        joinNowButton.backgroundColor = UIColor(
+            red: CGFloat(0.00),
+            green: CGFloat(0.60),
+            blue: CGFloat(1.0),
+            alpha: 1.0
+        )
+        
+        
+    }
 } // end class
